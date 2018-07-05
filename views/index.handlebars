@@ -1,0 +1,57 @@
+
+
+<div class="container">
+    <div class="card-deck mb-3">
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">List of burgers to choose from</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-2"><h4>ID</h4></div>
+                    <div class="col-lg-5"><h4>Burger Name</h4></div>
+                    <div class="col-lg-5"><h4>Devoured</h4></div>
+                        {{#each burgers}}
+                            {{#unless devoured}}
+                                <div class="col-lg-2"><h5>{{this.id}}</h5></div>
+                                <div class="col-lg-5"><h5>{{this.burger_name}}</h5></div>
+                                <div class="col-lg-5"><h5></h5><button class="devoured btn btn-primary" data-id="{{this.id}}" >Devoured</h5></button></div>
+                            {{/unless}}
+                        {{/each}}
+                </div>
+            </div>  
+        </div>  
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Add a Burger you are craving for</h4>
+            </div>
+            <div class="card-body">
+                <form class="create-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="burger_name" placeholder="Burger Name">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary" id="newBurger">Add Burger</button>
+                        </div>
+                    </div>
+                </form>
+            </div>    
+        </div> 
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Burger you have eaten</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-2"><h4>ID</h4></div>
+                    <div class="col-sm-10"><h4>Burger Name</h4></div>
+                        {{#each burgers}}
+                            {{#if devoured}}
+                                <div class="col-sm-2"><h5>{{this.id}}</h5></div>
+                                <div class="col-sm-10"><h5>{{this.burger_name}}</h5></div>
+                            {{/if}}
+                        {{/each}}
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>

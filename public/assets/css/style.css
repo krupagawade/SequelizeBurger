@@ -1,0 +1,14 @@
+body{
+    background-color: beige;
+    width: 100%;
+
+}
+
+.dataTable {
+    width: 300px;
+    border-style: none;
+    border-width: 5pt;
+    background-color: silver;
+    color: blue;
+}
+

@@ -1,26 +1,26 @@
 {
   "development": {
-    "username": "NWTrainingUser",
-    "password": "NWKrupa123",
-    "database": "burgers_db2",
-    "host": "127.0.0.1",
-    "port": 3307,
+    "username": "n9dic1x45qdlio2c",
+    "password": "ref4wual5q9smqxe",
+    "database": "bwdeumgjo2pk9i9i",
+    "host": "g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {
-    "username": "NWTrainingUser",
-    "password": "NWKrupa123",
-    "database": "burgers_db2",
-    "host": "127.0.0.1",
-    "port": 3307,
+    "username": "n9dic1x45qdlio2c",
+    "password": "ref4wual5q9smqxe",
+    "database": "bwdeumgjo2pk9i9i",
+    "host": "g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
     "dialect": "mysql"
   },
   "production": {
-    "username": "NWTrainingUser",
-    "password": "NWKrupa123",
-    "database": "burgers_db2",
-    "host": "127.0.0.1",
-    "port": 3307,
+    "username": "n9dic1x45qdlio2c",
+    "password": "ref4wual5q9smqxe",
+    "database": "bwdeumgjo2pk9i9i",
+    "host": "g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
     "dialect": "mysql"
   }
 }
